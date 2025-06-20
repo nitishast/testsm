@@ -1,0 +1,27 @@
+excel_file: "data/Book1.xlsx"
+excel_sheet_name: "BC - Business Rule"
+# excel_file: "data/WHS_Referral_Program_DataMapping.xlsx"
+# excel_sheet_name: "WHS Ref - Business Rule"
+processed_rules_file: "data/processed-rules.json"
+constrains_processed_rules_file: "data/constrains-processed-rules.json"
+generated_test_cases_file: "data/generated-test-cases.json"
+test_case_keys_file: "data/test-case-with-keys.json"
+# generated_test_cases_file: "data/anth1.json"
+gemini_model: "gemini-1.5-flash"
+# gemini_api_key: "AIzaSyCfWqJvycPgVnUrl_OjIN5nzSQxm_iBlw4"
+openai_api_version: "2024-06-01"
+azure_openai_endpoint: "https://prod-1.services.unitedaistudio.uhg.com/aoai-shared-openai-prod-1"
+deployment_name: "gpt-4o_2024-05-13"
+model_name: "gpt-4o"
+project_id: "0bef8880-4e98-413c-bc0b-41c280fd1b2a"
+
+api_use : "openai"
+credentials:
+  client_id: "462aae67-d2c7-4e84-b4ae-a3365598b943"
+  client_secret: "P3W9VRslQW0XPAj49qjmEVHO179VlZin5Pa"
+openai:
+  deployment_name: "gpt-4o_2024-05-13"
+  api_version: "2025-01-01-preview"
+  endpoint: "https://api.uhg.com/api/cloud/api-management/ai-gateway/1.0"
+  project_id: "0bef8880-4e98-413c-bc0b-41c280fd1b2a"
+
